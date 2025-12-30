@@ -1,0 +1,17 @@
+/home/kipchirchir/football-predictions/kopa-backend/src/main/java/com/kopa/KopaBackendApplication.java
+/home/kipchirchir/football-predictions/kopa-backend/src/main/java/com/kopa/MpesaConfig.java
+/home/kipchirchir/football-predictions/kopa-backend/src/main/java/com/kopa/controller/AdminController.java
+/home/kipchirchir/football-predictions/kopa-backend/src/main/java/com/kopa/controller/AuthController.java
+/home/kipchirchir/football-predictions/kopa-backend/src/main/java/com/kopa/controller/MpesaCallbackController.java
+/home/kipchirchir/football-predictions/kopa-backend/src/main/java/com/kopa/controller/MpesaController.java
+/home/kipchirchir/football-predictions/kopa-backend/src/main/java/com/kopa/model/Payment.java
+/home/kipchirchir/football-predictions/kopa-backend/src/main/java/com/kopa/model/Prediction.java
+/home/kipchirchir/football-predictions/kopa-backend/src/main/java/com/kopa/model/Result.java
+/home/kipchirchir/football-predictions/kopa-backend/src/main/java/com/kopa/model/User.java
+/home/kipchirchir/football-predictions/kopa-backend/src/main/java/com/kopa/repository/PaymentRepository.java
+/home/kipchirchir/football-predictions/kopa-backend/src/main/java/com/kopa/repository/PredictionRepository.java
+/home/kipchirchir/football-predictions/kopa-backend/src/main/java/com/kopa/repository/ResultRepository.java
+/home/kipchirchir/football-predictions/kopa-backend/src/main/java/com/kopa/repository/UserRepository.java
+/home/kipchirchir/football-predictions/kopa-backend/src/main/java/com/kopa/security/SecurityConfig.java
+/home/kipchirchir/football-predictions/kopa-backend/src/main/java/com/kopa/service/MpesaService.java
+/home/kipchirchir/football-predictions/kopa-backend/src/main/java/com/kopa/service/UserService.java
