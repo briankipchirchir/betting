@@ -22,4 +22,5 @@ RUN ./mvnw package -DskipTests
 EXPOSE 8080
 
 # Run the app
-ENTRYPOINT ["java","-jar","target/kopa-backend-0.0.1-SNAPSHOT.jar"]
+ENTRYPOINT ["java","-jar","target/*.jar"]
+
