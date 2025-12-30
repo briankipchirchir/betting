@@ -5,6 +5,8 @@ com/kopa/controller/AuthController.class
 com/kopa/service/MpesaService.class
 com/kopa/repository/ResultRepository.class
 com/kopa/MpesaConfig.class
+com/kopa/CorsConfig.class
+com/kopa/CorsConfig$1.class
 com/kopa/model/Result.class
 com/kopa/service/UserService.class
 com/kopa/model/Payment.class

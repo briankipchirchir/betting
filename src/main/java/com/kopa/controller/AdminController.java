@@ -105,4 +105,13 @@ public class AdminController {
     public List<String> getLeagues() {
         return predictionRepository.findDistinctLeagues();
     }
+
+    @PatchMapping("/users/{id}/make-admin")
+    public User makeAdmin(@PathVariable Long id) {
+        return userRepository.findById(id).map(u -> {
+            u.setRole("ADMIN");
+            return userRepository.save(u);
+        }).orElseThrow(() -> new RuntimeException("User not found"));
+    }
+
 }
