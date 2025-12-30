@@ -8,7 +8,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/mpesa")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://bettingtips-gamma.vercel.app")
 public class MpesaController {
 
     @Autowired
