@@ -18,9 +18,11 @@ COPY src src
 # Build jar
 RUN ./mvnw package -DskipTests
 
-# Expose port 8080 (Spring Boot default)
+# Copy the generated JAR to a fixed name
+RUN cp target/*.jar app.jar
+
+# Expose port 8080
 EXPOSE 8080
 
 # Run the app
-ENTRYPOINT ["java","-jar","target/*.jar"]
-
+ENTRYPOINT ["java","-jar","app.jar"]
